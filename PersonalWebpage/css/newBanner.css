@@ -1,0 +1,99 @@
+#banner{
+  float:left;
+  height: 128px ;
+  width: 450px ;
+#  background-color:#000000;
+#  background-image:url('../images/bar2.png');
+  background-repeat:no-repeat;
+  background-position: -50px -100px;
+#  border:1px solid red;
+}
+#bannerright{
+  float:right;
+  height: 128px ;
+  width: 450px ;
+#  background-color:#000000;
+  background-image:url('../images/bar2right.png');
+  background-repeat:no-repeat;
+  background-position: -50px -100px;
+#  border:1px solid red;
+}
+
+
+#logo{
+  position:relative;
+  top:29px;
+  height: 70px ;
+#  border:1px solid red;
+}
+
+#tagline{
+    color: rgba(255,255,255,0.8);
+    letter-spacing: -3px;
+    font-size: 60px;
+    text-shadow: 2px 0px 4px rgba(255,255,255,0.2);
+    position:relative;
+    top:50px;
+    left:0px;
+    width: 400px;
+}
+
+#linkContainer{
+    align: right;
+    position:relative;
+    height:50px;
+    width: 600px;
+    left: 40%;
+#    right: 10%;
+}
+
+.no_button{
+  float:right;
+  margin:0px 0px auto -2px;
+  padding: 0px 25px 0px 25px;
+  color:#ffffff; 
+  background-color: rgb(82, 176, 232);
+  height: 40px ;
+  line-height:2.4em;
+  font-size:1.25em;
+  border-style: solid;
+  border-color: white; # #222222;  
+  border-width:  2px 2px 0px 2px;  
+}
+
+.button{
+  float:right;
+  margin:39px 0px auto -2px;
+  padding: 0px 5px 0px 5px;
+  color:#ffffff; 
+  height: 50px ;
+  line-height:2.4em;
+  font-size:1.25em;    
+  border-style: solid;
+  border-color: #222222;  
+  border-width:  0px 2px 0px 2px; 
+}
+
+.button_l{
+  float:left;
+  height: 50px ;
+  width: 20px ;
+  background-image:url('../images/button_l.png');
+#  border:1px solid red;
+}
+
+.button_m{
+  float:left;
+  height: 50px ;
+  background-image:url('../images/button_m.png');
+  color:#0d64ac;    
+#  border:1px solid red;
+}
+
+.button_r{
+  float:left;
+  height: 50px ;
+  width: 20px ;
+  background-image:url('../images/button_r.png');
+#  border:1px solid red;
+}

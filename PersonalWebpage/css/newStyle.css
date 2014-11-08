@@ -1,0 +1,148 @@
+html {
+    height: 100%;
+#    border-bottom: 1px solid #000000;
+}
+
+body{
+    padding:0px;
+    margin: 0px;
+    background-color:rgb(200,200,200) ;
+#    font-family:"Century Gothic" , sans-serif;
+
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    color: #555;
+    font-size: 14px;
+}
+
+/*---------------------------------------- Top ----------------------------------------*/
+
+#top{
+  margin:0px auto ;
+  width:100%;#  width: 1000px ;
+  height: 128px ;
+#  background-color:rgb(0,112,192);
+  background-color:rgb(51,152,217); 
+
+  # Make top always on top
+  z-index: 1;
+  position: relative;
+ }
+
+
+/*---------------------------------------- Middle ----------------------------------------*/
+
+#middle{
+  width: 100% ;
+  padding:0px;  
+}
+
+#heading{
+#    color:rgb(0,112,192);
+    color:rgb(51,152,217);
+}
+
+#content{
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  margin: 0px auto ;
+  width: 1000px ;
+  padding: 50px 50px; 
+  background-color:#FFFFFF;
+  box-shadow:0px 0px 21px #000000;
+}
+
+/*    Images    */
+#textImageDiv{
+#    padding: 30px 30px;    
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.leftFloat{
+    float: left;
+    padding-right: 30px;
+}
+
+.rightFloat{
+    float: right;
+    padding-left: 30px;
+}
+
+/*---------------------------------------- Bottom ----------------------------------------*/
+
+#bottom{
+  width: 100% ;
+  padding: 20px 0 0 0;
+}
+
+/* Footer */
+#footer{
+  margin:0px auto ;
+  width: 100%;
+  height: 100px ;
+  background-color:rgb(0,112,192);
+}
+
+
+/* Contact */
+#contact{
+    color:white;
+    left: 50px;
+    padding: 10px;
+    width: 50%;
+    float:left;
+    font-weight: bold;
+}
+
+#footerLogo{
+#  margin:0px auto ;
+#  align: right;
+#  width: 30%;
+  height: 80px ;
+  background-color:rgb(255,255,255);
+  padding: 10px;
+  float:right;
+}
+
+#contact a:link,
+#contact a:visited,
+#contact a:active{
+	text-decoration: none;
+	color:#ffffff;
+}
+#contact a:hover {
+        text-decoration: none;
+        color:rgb(51,152,217);
+}
+
+
+/* a.contact:visited { */
+/* 	text-decoration: none; */
+/* 	color:#ffffff; */
+/* } */
+/* a.contact:active { */
+/* 	text-decoration: none; */
+/* 	color:#ffffff; */
+/* } */
+/* a.contact:hover { */
+/* 	text-decoration: underline; */
+/* 	color:#ffffff; */
+/* } */
+
+
+/* a:link { */
+/* 	text-decoration: none; */
+/* 	color:#ffffff; */
+/* } */
+/* a:visited { */
+/* 	text-decoration: none; */
+/* 	color:#ffffff; */
+/* } */
+/* a:active { */
+/* 	text-decoration: none; */
+/* 	color:#ffffff; */
+/* } */
+/* a:hover { */
+/* 	text-decoration: underline; */
+/* 	color:#ffffff; */
+/* } */

@@ -1,0 +1,45 @@
+.heading{
+  width: 1000px ;
+  height: 25px ;
+  font-size:1.25em;
+  color: #ffffff;
+  margin: 10px 0px;
+#  background-color:#ffffff;
+#  border:1px solid red; 
+}
+
+.heading_l_text{
+  float:left;
+  height: 25px ;
+  width: 310px;
+  padding-left: 10px;
+  background-color:#000000;
+  text-align: left;
+  }
+
+.heading_l_angle{
+  float:left;
+  height: 25px ;
+  width: 25px ;
+  background-image:url('../images/line.png');
+  background-repeat:no-repeat;
+  background-position:left bottom;   
+}
+
+.heading_r_text{
+  float:right;
+  height: 25px ;
+  width: 310px;
+  padding-right: 10px;
+  background-color:#000000;	
+  text-align: right;
+  }
+
+.heading_r_angle{
+  float:right;
+  height: 25px ;
+  width: 25px ;
+  background-image:url('../images/line.png');
+  background-repeat:no-repeat;
+  background-position:right bottom;   
+}

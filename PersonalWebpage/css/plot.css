@@ -1,0 +1,21 @@
+
+
+ #option_console {
+    background-color: #7D97B8;
+    border-color: #013F7A;    
+    border-style: solid;
+    border-width: 3px;
+    position: fixed;
+    width: 150px;
+    font-weight:bold;
+    color: white;
+    text-align: center;
+  #  margin-left: -120px;
+    padding: 3px;
+    float: none;
+  }
+
+
+ #plot_region {
+    margin-left: 150px;
+  }
