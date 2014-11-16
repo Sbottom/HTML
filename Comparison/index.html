@@ -1,0 +1,291 @@
+<html><head><title>/25vs50ns/QCD120to170/</title>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type">
+<meta content="MSHTML 5.00.2314.1000" name="GENERATOR"></head>
+<link rel="stylesheet" type="text/css" href="http://www.hep.ph.ic.ac.uk/~mb1512/css/plot.css" />
+<script type="text/javascript" src="http://www.hep.ph.ic.ac.uk/~mb1512/js/plotFunctions.js"></script>
+<script>
+
+
+var plotTypes = [["QCD30to50"],
+  ["QCD50to80"],
+  ["QCD80to120"],
+  ["QCD120to170"],
+  ["QCD170to300"],
+  ["QCD300to470"],
+  ["QCD470to600"],
+  ["QCD600to800"],
+  ["QCD800to1000"],
+]
+
+
+var inputPlotNames = [["25ns_vs_50ns_HLT_CaloJet20_v1"],
+["25ns_vs_50ns_HLT_HT100_v1"],
+["25ns_vs_50ns_HLT_HT200_AlphaT0p57_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT200_AlphaT0p57_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT200_AlphaT0p5_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT200_AlphaT0p5_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT200_PFAlphaT0p5_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT200_PFAlphaT0p5_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT250_AlphaT0p55_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT250_AlphaT0p55_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT250_AlphaT0p5_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT250_AlphaT0p5_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT250_PFAlphaT0p5_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT250_PFAlphaT0p5_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT300_AlphaT0p53_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT300_AlphaT0p53_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT300_AlphaT0p5_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT300_AlphaT0p5_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT300_PFAlphaT0p5_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT300_PFAlphaT0p5_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT350_AlphaT0p52_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT350_AlphaT0p52_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT350_AlphaT0p5_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT350_AlphaT0p5_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT350_PFAlphaT0p5_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT350_PFAlphaT0p5_NoL1_v1"],
+["25ns_vs_50ns_HLT_HT400_AlphaT0p51_L1HTT175OrETM70_v1"],
+["25ns_vs_50ns_HLT_HT400_AlphaT0p51_NoL1_v1"],
+["25ns_vs_50ns_HLT_PFHT100_v1"],
+["25ns_vs_50ns_HLT_PFHT350_NoL1_v1"],
+["25ns_vs_50ns_HLT_PFHT350_PFMET120_NoiseCleaned_NoL1_v1"],
+["25ns_vs_50ns_HLT_PFHT350_PFMET120_NoiseCleaned_v1"],
+["25ns_vs_50ns_HLT_PFHT350_v1"],
+["25ns_vs_50ns_HLT_PFHT600_NoL1_v1"],
+["25ns_vs_50ns_HLT_PFHT600_v1"],
+["25ns_vs_50ns_HLT_PFHT900_NoL1_v1"],
+["25ns_vs_50ns_HLT_PFHT900_v1"],
+["25ns_vs_50ns_HLT_PFJet20_v1"],
+["25ns_vs_50ns_HLT_PFMET120_NoiseCleaned_BTagCSV07_NoL1_v1"],
+["25ns_vs_50ns_HLT_PFMET120_NoiseCleaned_BTagCSV07_v1"],
+["25ns_vs_50ns_HLT_PFMET170_NoiseCleaned_NoL1_v1"],
+["25ns_vs_50ns_HLT_PFMET170_NoiseCleaned_v1"],
+["25ns_vs_50ns_HLT_Rsq0p36_NoL1_v1"],
+["25ns_vs_50ns_HLT_Rsq0p36_v1"],
+["25ns_vs_50ns_HLT_RsqMR300_Rsq0p09_MR200_4jet_NoL1_v1"],
+["25ns_vs_50ns_HLT_RsqMR300_Rsq0p09_MR200_4jet_v1"],
+["25ns_vs_50ns_HLT_RsqMR300_Rsq0p09_MR200_NoL1_v1"],
+["25ns_vs_50ns_HLT_RsqMR300_Rsq0p09_MR200_v1"],
+["25ns_vs_50ns_NVTX"],
+["25ns_vs_50ns_PThat"],
+["25ns_vs_50ns_gctCen_Eta"],
+["25ns_vs_50ns_gctCen_Phi"],
+["25ns_vs_50ns_gctCen_Pt"],
+["25ns_vs_50ns_gctCen_Px"],
+["25ns_vs_50ns_gctCen_Py"],
+["25ns_vs_50ns_gctFor_Eta"],
+["25ns_vs_50ns_gctFor_Phi"],
+["25ns_vs_50ns_gctFor_Pt"],
+["25ns_vs_50ns_gctFor_Px"],
+["25ns_vs_50ns_gctFor_Py"],
+["25ns_vs_50ns_gct_Et"],
+["25ns_vs_50ns_gct_Ht"],
+["25ns_vs_50ns_gct_MetPhi"],
+["25ns_vs_50ns_gct_MetPt"],
+["25ns_vs_50ns_gct_MhtDivHt"],
+["25ns_vs_50ns_gct_MhtPhi"],
+["25ns_vs_50ns_gct_MhtPt"],
+["25ns_vs_50ns_genAk4For_Eta"],
+["25ns_vs_50ns_genAk4For_Phi"],
+["25ns_vs_50ns_genAk4For_Pt"],
+["25ns_vs_50ns_genAk4For_Px"],
+["25ns_vs_50ns_genAk4For_Py"],
+["25ns_vs_50ns_genAk4_AlphaT40"],
+["25ns_vs_50ns_genAk4_AlphaT50"],
+["25ns_vs_50ns_genAk4_Eta"],
+["25ns_vs_50ns_genAk4_HT40"],
+["25ns_vs_50ns_genAk4_HT50"],
+["25ns_vs_50ns_genAk4_Phi"],
+["25ns_vs_50ns_genAk4_Pt"],
+["25ns_vs_50ns_genAk4_Px"],
+["25ns_vs_50ns_genAk4_Py"],
+["25ns_vs_50ns_genAk5For_Eta"],
+["25ns_vs_50ns_genAk5For_Phi"],
+["25ns_vs_50ns_genAk5For_Pt"],
+["25ns_vs_50ns_genAk5For_Px"],
+["25ns_vs_50ns_genAk5For_Py"],
+["25ns_vs_50ns_genAk5_Eta"],
+["25ns_vs_50ns_genAk5_Phi"],
+["25ns_vs_50ns_genAk5_Pt"],
+["25ns_vs_50ns_genAk5_Px"],
+["25ns_vs_50ns_genAk5_Py"],
+["25ns_vs_50ns_genElectron_Eta"],
+["25ns_vs_50ns_genElectron_Phi"],
+["25ns_vs_50ns_genElectron_Pt"],
+["25ns_vs_50ns_genLeptonVeto"],
+["25ns_vs_50ns_genMetCaloAndNonPrompt_MetPt"],
+["25ns_vs_50ns_genMetCalo_MetPt"],
+["25ns_vs_50ns_genMetTrue_MetPt"],
+["25ns_vs_50ns_genMuon_Eta"],
+["25ns_vs_50ns_genMuon_Phi"],
+["25ns_vs_50ns_genMuon_Pt"],
+["25ns_vs_50ns_hltAk4CaloFor_Eta"],
+["25ns_vs_50ns_hltAk4CaloFor_Phi"],
+["25ns_vs_50ns_hltAk4CaloFor_Pt"],
+["25ns_vs_50ns_hltAk4CaloFor_Px"],
+["25ns_vs_50ns_hltAk4CaloFor_Py"],
+["25ns_vs_50ns_hltAk4CaloNoFastJetFor_Eta"],
+["25ns_vs_50ns_hltAk4CaloNoFastJetFor_Phi"],
+["25ns_vs_50ns_hltAk4CaloNoFastJetFor_Pt"],
+["25ns_vs_50ns_hltAk4CaloNoFastJetFor_Px"],
+["25ns_vs_50ns_hltAk4CaloNoFastJetFor_Py"],
+["25ns_vs_50ns_hltAk4CaloNoFastJet_Eta"],
+["25ns_vs_50ns_hltAk4CaloNoFastJet_Phi"],
+["25ns_vs_50ns_hltAk4CaloNoFastJet_Pt"],
+["25ns_vs_50ns_hltAk4CaloNoFastJet_Px"],
+["25ns_vs_50ns_hltAk4CaloNoFastJet_Py"],
+["25ns_vs_50ns_hltAk4Calo_AlphaT40"],
+["25ns_vs_50ns_hltAk4Calo_AlphaT50"],
+["25ns_vs_50ns_hltAk4Calo_Eta"],
+["25ns_vs_50ns_hltAk4Calo_HT40"],
+["25ns_vs_50ns_hltAk4Calo_HT50"],
+["25ns_vs_50ns_hltAk4Calo_Phi"],
+["25ns_vs_50ns_hltAk4Calo_Pt"],
+["25ns_vs_50ns_hltAk4Calo_Px"],
+["25ns_vs_50ns_hltAk4Calo_Py"],
+["25ns_vs_50ns_hltAk4PFFor_Eta"],
+["25ns_vs_50ns_hltAk4PFFor_Phi"],
+["25ns_vs_50ns_hltAk4PFFor_Pt"],
+["25ns_vs_50ns_hltAk4PFFor_Px"],
+["25ns_vs_50ns_hltAk4PFFor_Py"],
+["25ns_vs_50ns_hltAk4PF_AlphaT40"],
+["25ns_vs_50ns_hltAk4PF_AlphaT50"],
+["25ns_vs_50ns_hltAk4PF_Eta"],
+["25ns_vs_50ns_hltAk4PF_HT40"],
+["25ns_vs_50ns_hltAk4PF_HT50"],
+["25ns_vs_50ns_hltAk4PF_Phi"],
+["25ns_vs_50ns_hltAk4PF_Pt"],
+["25ns_vs_50ns_hltAk4PF_Px"],
+["25ns_vs_50ns_hltAk4PF_Py"],
+["25ns_vs_50ns_hltMetCalo_MetPT"],
+["25ns_vs_50ns_hltMhtCalo_MetPT"],
+["25ns_vs_50ns_hltMhtPF_MetPT"],
+]
+
+/* Intialise initial plot */
+var currentPlot = "25ns_vs_50ns_HLT_CaloJet20_v1"
+  
+
+function update() {
+
+   var plot = document.getElementById("selectBox").value;
+
+   for (var i = 0; i < plotTypes.length; i++){
+
+
+     var type     = plotTypes[i];
+
+     var baseName = type + "/" + plot; 
+     var basePath = "../" + baseName;
+
+
+
+
+    var test  = document.getElementById( type + "_link_png").href;
+
+
+    var pathPng =  "../" + type + "/" + document.getElementById("selectBox").value + ".png";
+
+     
+
+
+    document.getElementById( type + "_link_png").href  = basePath + ".png";
+    document.getElementById( type + "_png").src        = basePath + ".png";
+    document.getElementById( type + "_link_pdf").href  = basePath + ".pdf";
+    document.getElementById( type + "_link_pdf").value = basePath + ".pdf";
+
+
+    document.getElementById( type + "_ratio_link_png").href  = basePath + "_Ratio.png";
+    document.getElementById( type + "_ratio_png").src        = basePath + "_Ratio.png";
+    document.getElementById( type + "_ratio_link_pdf").href  = basePath + "_Ratio.pdf";
+    document.getElementById( type + "_ratio_link_pdf").value = basePath + "_Ratio.pdf";
+  
+
+
+  }
+/*    document.getElementById("srt").value = document.getElementById("selectBox").value;*/
+
+
+}
+
+function listPlots( plotNames ){
+
+
+  document.write( '<select id="selectBox" onchange="update()" style="width:150px;">');
+  for (var i = 0; i < plotNames.length; i++){
+    var plot = plotNames[i];
+    document.write( '<option value="' + plot + '">' + plot + '</option>');
+  }
+  document.write( '</select>');
+/*  document.write( '<input type="text" id="srt" placeholder="get value on option select"><br>');*/
+
+
+}
+
+function compare( plot ){
+
+  var plotHeight = 400;
+
+
+  for (var i = 0; i < plotTypes.length; i++){
+
+     var type     = plotTypes[i];
+     var baseName = type + "/" + plot; 
+     var basePath = "../" + baseName;
+
+
+     document.write( '<tr>\n<td>\n');
+     document.write( '<a   id="' + type + '_link_png" class="1Dlog_link_png" href=' + basePath +'.png>\n' ); 
+     document.write( '<img id="' + type + '_png"      class="1Dlog" height="' + plotHeight +'" src="' + basePath + '.png"></a>');
+     document.write( '<center>');
+     document.write( '<a   id="' + type + '_link_pdf" class="1Dlog_link_pdf" href=' + basePath + '.pdf>' + baseName + '.pdf</a>' );
+     document.write( '</center>\n</td>' );
+    
+     /* Ratio */
+     document.write( '<td>');
+     document.write( '<a   id="' + type + '_ratio_link_png" href=' + basePath + '_Ratio.png>')
+     document.write( '<img id="' + type + '_ratio_png" height="' + plotHeight + '" src="' + basePath + '_Ratio.png"></a>' );
+     document.write( '<center>\n');
+     document.write( '<a   id="' + type + '_ratio_link_pdf" href=' + basePath + '_Ratio.pdf>' + baseName + '_Ratio.pdf</a>');
+     document.write( '</center>\n</td>\n</tr>\n' )
+ 
+/*    document.write('</tr>');*/
+  }
+
+}
+
+
+
+
+
+
+
+
+</script></head>
+<body><br>
+<h1><a href="http://www.hep.ph.ic.ac.uk/~mb1512/SUSY/UCTHLT/CMSSW_7_2_1_patch2/src/AlphaTHLT/plotTest/25vs50ns">/25vs50ns</a><a href="http://www.hep.ph.ic.ac.uk/~mb1512/SUSY/UCTHLT/CMSSW_7_2_1_patch2/src/AlphaTHLT/plotTest/25vs50ns/Comparison">/Comparison</a></h1>
+
+<div id="option_console">
+<h3> <u>Plot options</u> </h3>
+<button id="button_log" style="width:100px" onclick="toggle1DLog()">Log</button>
+
+<script>listPlots( inputPlotNames ) </script>
+</div>
+
+<div id="plot_region">
+<table align="center">
+
+
+
+
+
+<script>compare( currentPlot ) </script>
+
+
+</div>
+
+
+
+
+
+</body></html>
